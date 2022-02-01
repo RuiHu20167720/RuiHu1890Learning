@@ -7,3 +7,15 @@ class Address:
         self.country = country
 my_address = Address(street="TerraNova",city="St. John's", state="NL",postal_code="A1B1G1",country= "CA")
 print(my_address.city)
+import math
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+    def area(self):
+        return math.pi*self.radius**2
+    def perimeter(self):
+        return 2*self.radius*math.pi
+test = Circle(1)
+print(test.area() )
+print(test.perimeter())
+
