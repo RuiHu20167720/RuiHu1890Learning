@@ -26,4 +26,4 @@ class Person:
 
 dog = Dog(dog_name="Akira", dage=4, tricks="hunting bird")
 person_one = Person(pname="R.H", person_age=25, pet=dog)
-print(person_one.dog)
+print(person_one.dog.name)
